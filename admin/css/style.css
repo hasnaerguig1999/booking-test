@@ -1,0 +1,226 @@
+.menu-items a:hover {
+    color: #117964;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .logo {
+    order: 1;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* ............//// Showcase styling ////......... */
+  
+  .showcase-area {
+    height: 50vh;
+    background: linear-gradient(
+        rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)
+      ),
+      url("../img/chambre\ 2\ personnes.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+  }
+
+  #contact {
+    padding: 5rem 0;
+    background: rgb(226, 226, 226);
+  }
+  
+  .contact-container {
+    display: flex;
+    background: #fff;
+  }
+  
+  .contact-img {
+    width: 50%;
+  }
+  
+  .contact-img img {
+    display: block;
+    height: 400px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  .form-container {
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .form-container input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  .form-container textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    color: #444;
+    outline: none;
+    padding: 1rem 0;
+    resize: none;
+  }
+  
+  .form-container h2 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+  }
+  
+  .form-container a {
+    font-size: 1.3rem;
+  }
+  img{
+    height:150px;
+    width:100%;
+  }
+  
+  div [class^="col-"]{
+    padding-left:5px;
+    padding-right:5px;
+  }
+  .card{
+    transition:0.5s;
+    cursor:pointer;
+  }
+  .card-title{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+  }
+  .card-title i{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+    color:#ffa710
+  }
+  .card-title i:hover{
+    transform: scale(1.25) rotate(100deg); 
+    color:#18d4ca;
+    
+  }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  }
+  .card-text{
+    height:80px;  
+  }
+  
+  .card::before, .card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none;
+  }
+  .card::before {
+    transform-origin: left top;
+  }
+  .card::after {
+    transform-origin: right bottom;
+  }
+  .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+    transform: scale3d(1, 1, 1);
+  }
+ input.form-control{
+    width: 30%;
+    
+  }
+  button.navbar-toggler{
+    background-color: rgb(84, 77, 77);
+  }
+
+
+ /* # reservation */
+
+ /* .grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap:20px;
+ } */
+ /* input{
+  outline: none;
+  border: none;
+  width: 100%;
+ } */
+ .book{
+padding: 48px 0;
+background: #282834;
+color: #fff;
+ }
+ .book h1{
+  font-family: serif;
+  font-size: 28px;
+ }
+  .book h1 span{
+    color: #7fc142;
+  }
+  /* .book input{
+    padding: 20px;
+  }
+  .book input:nth-last-child(1){
+    background:#7fc142;
+    color: #fff;
+  }
+
+li .nav-item dropdown{
+  text-decoration: none;
+} */
+
+/* input.aval{
+  background-color: #7fc142;
+} */
+input.form-control {
+ 
+  width: 100%;
+}
+
+.custom-bg{
+  background-color: #7fc142;
+}
+.custom-bg:hover{
+  background-color: #7fc142;
+}
+
+form{
+ 
+    background-color: #fff ;
+    padding: 37px;
+}
+
+body {
+  background-color: #fff;
+}
+
+
